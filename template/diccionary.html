@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translator</title>
+  <link rel="stylesheet" href="../styles/css.css">
+</head>
+<body>
+  <div class="container">
+    <header class="content-nav">
+      <div class="title">
+        <h1>Translator</h1>
+      </div>
+      <nav class="nav">
+        <ul class="items">
+          <li><a href="../index.html">Traslate</a></li>
+          <li><a href="#">Agregar palabra</a></li>
+          <li><button id="order_word"> Ordenar  alfabeticamente</button></li>
+          <li> <select id="category-select">
+            <option value="">Todas</option>
+            <option value="animals">Animales</option>
+            <option value="fruits">Frutas</option>
+            <option value="colors">Colores</option>
+          </select></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="list-dictionary" id="dictionary">
+        <div id="show-dictionary">
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Jhonatan Cardona León</p>
+    </footer> 
+  </div>
+  <script type="module" src="../scripts/Mostrar_dictionary.js"></script>
+  <script type="module" src="../scripts/dictionary.js"></script>
+</body>
+</html>
